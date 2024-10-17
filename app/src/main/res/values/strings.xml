@@ -1,0 +1,29 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Guía de Viajes</string>
+
+    <!-- Página 1: Lista de Países -->
+    <string name="txtPaises">Lista de Países</string>
+
+    <!-- Página 2: Ciudades del País Seleccionado -->
+    <string name="txtUrl">Escribe tu Url</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="txtViajes">Buscar Destinos</string>
+    <string name="button_view_details">Ver Detalles</string>
+
+    <!-- Página 3: Detalles del Destino Turístico -->
+    <string name="txtTitulo">Reserva aqui</string>
+    <string name="txtNombre">Escribe tu nombre  </string>
+    <string name="txtCorreo">Escribe tu correo</string>
+    <string name="txtEdad">Escribe tu edad</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnVer">Ver</string>
+    <string name="lbDatos">Datos: </string>
+
+    <!-- Itmes de Menu -->
+    <string name="itmTravel">Travel</string>
+    <string name="itmReserva">Reserva</string>
+    <string name="itmDestinos">Destinos</string>
+    <string name="itmPlanes">PLanes</string>
+    <string name="itmPromociones">Promociones</string>
+</resources>
