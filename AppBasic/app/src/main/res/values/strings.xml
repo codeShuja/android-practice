@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Biblioteca Virtual</string>
+
+    <string name="txtAutor">Escribe Nombre Autor</string>
+    <string name="txtLibro">Escribe Nombre del Libro</string>
+    <string name="txtPrecio">Escribe el Precio</string>
+
+    <string name="txtGenero">Escoge Genero Literario</string>
+
+    <string name="rdNarrativo">Narrativo</string>
+    <string name="rdLirico">Lirico</string>
+    <string name="rdDramatico">Dramatico</string>
+
+    <string name="txtGeneroSecundario">Géneros Secundarios</string>
+
+    <string name="chkFantastico">Fantástico</string>
+    <string name="chkCienciaFiccion">Ciencia Ficción</string>
+    <string name="chkHistorico">Histórico</string>
+
+    <string name="txtHoras">Horas de Lectura</string>
+
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnConsultar">Consultar</string>
+
+    <string name="itmFavorito">Favorito</string>
+    <string name="itmCrear">Crear</string>
+    <string name="itmListar">Lista Libros</string>
+
+    <string name="lvLista">Listado de Libros: </string>
+
+    <string name="tlFavoritos">Biblioteca de Favoritos </string>
+
+    <string name="txtUrl">Escriba la url</string>
+   <string name="txtNombre">Escriba el Nombre</string>
+   <string name="txtContenido">Escriba el Contenido</string>
+
+
+
+</resources>

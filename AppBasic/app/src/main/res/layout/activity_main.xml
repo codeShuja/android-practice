@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="@string/txtAutor" />
+    <EditText
+        android:id="@+id/txtLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="@string/txtLibro" />
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/txtPrecio" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/txtGenero" />
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdNarrativo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/rdNarrativo" />
+
+        <RadioButton
+            android:id="@+id/rdLirico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/rdLirico" />
+
+        <RadioButton
+            android:id="@+id/rdDramatico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/rdDramatico" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtGeneroSecundario"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+
+        <CheckBox
+            android:id="@+id/chkFantastico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkFantastico" />
+
+        <CheckBox
+            android:id="@+id/chkCienciaFiccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkCienciaFiccion" />
+
+        <CheckBox
+            android:id="@+id/chkHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkHistorico" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtHoras"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp" />
+    <ListView
+        android:id="@+id/lvHoras"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+    <Button
+    android:id="@+id/btnGuardar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:onClick="guardar"
+    android:text="@string/btnGuardar" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConsultar"
+        android:onClick="listar"/>
+</LinearLayout>

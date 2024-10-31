@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itmCrear"
+        android:icon="@drawable/save_left_svgrepo_com"
+        android:title="@string/itmCrear"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itmListar"
+        android:icon="@drawable/list_list_svgrepo_com"
+        android:title="@string/itmListar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itmFavorito"
+        android:icon="@drawable/favorite_heart_love_rate_seo_star_svgrepo_com"
+        android:title="@string/itmFavorito"
+        app:showAsAction="always" />
+
+
+</menu>
