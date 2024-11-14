@@ -1,0 +1,13 @@
+<!-- strings.xml -->
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="id_hint">ID del Libro</string>
+    <string name="nombre_hint">Nombre del Libro</string>
+    <string name="autor_hint">Autor del Libro</string>
+    <string name="precio_hint">Precio del Libro</string>
+    <string name="guardar">Guardar</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="listar">Listar</string>
+</resources>

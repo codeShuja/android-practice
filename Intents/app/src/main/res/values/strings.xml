@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Registro de Participantes</string>
+    <string name="txtNombre">Escribe tu Nombre</string>
+    <string name="txtTelefono">Escribe tu Telefono</string>
+    <string name="txtCorreo">Escribe tu Correo</string>
+    <string name="btnRegistrar">Resgistrar Participante</string>
+
+    <string name="lvMostrar">Bienvenido al Evento</string>
+    <string name="lvNobre">Nombre: </string>
+    <string name="lvTelefono">Telefono: </string>
+    <string name="lvCorreo">Correo: </string>
+    <string name="btnRegresar">Regresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

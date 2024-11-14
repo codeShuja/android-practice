@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Listar">
+
+
+    <TextView
+        android:id="@+id/lvMostrar"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/lvMostrar" />
+
+
+    <TextView
+        android:id="@+id/lvNombre"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/lvNobre" />
+
+    <TextView
+        android:id="@+id/lvTelefono"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/lvTelefono" />
+
+    <TextView
+        android:id="@+id/lvCorreo"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/lvCorreo" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:onClick="guardar"
+        android:hint="@string/btnRegresar" />
+</LinearLayout>

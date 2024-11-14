@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="@string/txtNombre"
+        android:paddingBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:paddingBottom="20dp"
+        android:hint="@string/txtTelefono" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="@string/txtCorreo" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:onClick="guardar"
+        android:hint="@string/btnRegistrar" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.intents.FragmentRojo"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.intents.FragmentVerde"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
